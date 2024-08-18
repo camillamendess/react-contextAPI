@@ -3,7 +3,7 @@ import Botao from "@/components/Botao";
 import ListaProdutosCarrinho from "@/components/ListaProdutosCarrinho";
 import TotalCarrinho from "./TotalCarrinho";
 import Titulo from "@/components/Titulo";
-import { useCarrinhoContext } from "../../hooks/useCarrinhoContext";
+import { useCarrinhoContext } from "../../hooks/useCarrinhoContext.js";
 
 const CarrinhoSuspenso = () => {
   const { carrinho, valorTotal } = useCarrinhoContext();
